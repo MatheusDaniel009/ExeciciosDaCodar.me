@@ -29,7 +29,7 @@ Desconto = Valor_Compras * 0.25
 
 Quantidade_Item = 75
 
-Valor_Final = Valor_Compras -  Desconto
+Valor_Final = Valor_Compras - Desconto
 
 Media = Valor_Final / Quantidade_Item 
 

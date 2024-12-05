@@ -61,6 +61,6 @@ class SimpleHandler(BaseHTTPRequestHandler):
            """.encode()
            self.wfile.write(data)
 
- 
+  
 server = HTTPServer(('localhost', 8000), SimpleHandler)
 server.serve_forever()

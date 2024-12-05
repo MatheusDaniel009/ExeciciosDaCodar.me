@@ -5,13 +5,13 @@
 
 #n = int(n1)
 
-#print ("seu numero é  par: " , n % 2 == 0)  
+#print ("seu numero é  par: " , n % 2 == 0)
 #print ("seu numero é impar: ", n % 2 == 1)
 
 #2 O que vai ser impresso na tela ao executar o programa abaixo? (são 2 prints !)
 
 
-# = 5
+#a = 5
 #b = 10
 #x = True
 #y = False

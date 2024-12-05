@@ -52,7 +52,7 @@
 # ("Carlos", 9),
 # ]
 
-# Escreva uma programa que calcula a média das notas de todos os alunos.
+#Escreva uma programa que calcula a média das notas de todos os alunos.
 
 # total_notas = 0
 # l = 0
@@ -65,6 +65,15 @@
 
 # media  = total_notas / l
 
+# print("a media das notas é:", media)
+
+# total = 0
+
+# for aluno in alunos:
+#     nome, nota = aluno
+#     total = total + nota
+
+# media = total /  len(alunos)
 # print("a media das notas é:", media)
 
 #5 Suponha o seguinte programa:
@@ -98,6 +107,15 @@
 
 # print("a media é:",media)
 
+# total = 0
+# for aluno in alunos:
+#     nome, nota = aluno.values()
+#     total += nota
+
+# media = total / len(alunos)
+# print("a media é:",media)
+
+
 #6 Escreva um programa que dado uma lista de números inteiros, imprime
 #o maior número dessa lista.
 
@@ -121,12 +139,8 @@
 #     alfabeto[l] = 0
 
 # for l in p:
-#     n = alfabeto[l] +1
-#     alfabeto[l] = n
-
-
-
-
+#     alfabeto[l] += 1
+  
 
 # print (sorted(alfabeto.items()))
 
